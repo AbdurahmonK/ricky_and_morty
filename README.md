@@ -4,7 +4,7 @@ Simple Flutter app with clean architect.
 
 # Used packages:
 
-## Value equality
+### Value equality
 
 equatable
 
