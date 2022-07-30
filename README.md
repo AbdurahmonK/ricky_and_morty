@@ -2,7 +2,7 @@
 
 Simple Flutter app with clean architect.
 
-# Used packages
+# Used packages:
 
 ## Value equality
 
