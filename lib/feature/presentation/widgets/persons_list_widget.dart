@@ -4,9 +4,9 @@ import 'dart:async';
 import 'person_card_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ricky_and_morty/feature/domain/entities/person_entity.dart';
-import 'package:ricky_and_morty/feature/presentation/bloc/person_list_cubit/person_list_cubit.dart';
-import 'package:ricky_and_morty/feature/presentation/bloc/person_list_cubit/person_list_state.dart';
+import '/feature/domain/entities/person_entity.dart';
+import '/feature/presentation/bloc/person_list_cubit/person_list_cubit.dart';
+import '/feature/presentation/bloc/person_list_cubit/person_list_state.dart';
 
 class PersonsList extends StatelessWidget {
   final scrollController = ScrollController();

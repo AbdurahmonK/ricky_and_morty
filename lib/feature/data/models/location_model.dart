@@ -1,4 +1,4 @@
-import 'package:ricky_and_morty/feature/domain/entities/person_entity.dart';
+import '/feature/domain/entities/person_entity.dart';
 
 class LocationModel extends LocationEntity {
   LocationModel({name, url}) : super(name: name, url: url);

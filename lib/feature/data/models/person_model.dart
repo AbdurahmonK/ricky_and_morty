@@ -1,5 +1,5 @@
-import 'package:ricky_and_morty/feature/data/models/location_model.dart';
-import 'package:ricky_and_morty/feature/domain/entities/person_entity.dart';
+import '/feature/data/models/location_model.dart';
+import '/feature/domain/entities/person_entity.dart';
 
 class PersonModel extends PersonEntity {
   const PersonModel({

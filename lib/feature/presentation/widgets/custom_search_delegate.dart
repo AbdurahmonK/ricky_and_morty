@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ricky_and_morty/feature/presentation/bloc/search_bloc/search_event.dart';
 import '/feature/domain/entities/person_entity.dart';
 import '/feature/presentation/widgets/search_result.dart';
 import '/feature/presentation/bloc/search_bloc/search_bloc.dart';
+import '/feature/presentation/bloc/search_bloc/search_event.dart';
 import '/feature/presentation/bloc/search_bloc/search_state.dart';
 
 class CustomSearchDelegate extends SearchDelegate {

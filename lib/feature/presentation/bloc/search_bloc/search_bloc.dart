@@ -1,11 +1,11 @@
 // ignore_for_file: prefer_typing_uninitialized_variables
 
 // import 'package:dartz/dartz.dart';
+import '/core/error/failure.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ricky_and_morty/core/error/failure.dart';
-import 'package:ricky_and_morty/feature/domain/usecases/search_person.dart';
-import 'package:ricky_and_morty/feature/presentation/bloc/search_bloc/search_event.dart';
-import 'package:ricky_and_morty/feature/presentation/bloc/search_bloc/search_state.dart';
+import '/feature/domain/usecases/search_person.dart';
+import '/feature/presentation/bloc/search_bloc/search_event.dart';
+import '/feature/presentation/bloc/search_bloc/search_state.dart';
 
 class PersonSearchBloc extends Bloc<PersonSearchEvent, PersonSearchState> {
   final SearchPerson searchPerson;

@@ -1,14 +1,11 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
+import '/common/app_colors.dart';
 import 'package:get_it/get_it.dart';
-import 'package:ricky_and_morty/common/app_colors.dart';
-import 'feature/presentation/bloc/search_bloc/search_bloc.dart';
-import 'feature/presentation/bloc/person_list_cubit/person_list_cubit.dart';
-
-import 'feature/presentation/pages/home_page.dart';
 import 'locator_service.dart' as di; // import as dependency injection
 import 'package:flutter/material.dart';
-
-// import 'locator_service.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'feature/presentation/pages/home_page.dart';
+import 'feature/presentation/bloc/search_bloc/search_bloc.dart';
+import 'feature/presentation/bloc/person_list_cubit/person_list_cubit.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
